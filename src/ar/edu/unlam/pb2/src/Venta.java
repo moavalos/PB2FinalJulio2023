@@ -12,4 +12,6 @@ public interface Venta {
 
 	Boolean esCombo();
 
+	void setCantidad(Integer cantidad);
+
 }

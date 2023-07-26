@@ -16,6 +16,30 @@ public class Articulo implements Venta {
 		this.tipo = tipo;
 	}
 
+	public TipoArticulo getTipo() {
+		return tipo;
+	}
+
+	public void setTipo(TipoArticulo tipo) {
+		this.tipo = tipo;
+	}
+
+	public void setNombre(String nombre) {
+		this.nombre = nombre;
+	}
+
+	public void setDescripcion(String descripcion) {
+		this.descripcion = descripcion;
+	}
+
+	public void setValor(Double valor) {
+		this.valor = valor;
+	}
+
+	public void setCantidad(Integer cantidad) {
+		this.cantidad = cantidad;
+	}
+
 	@Override
 	public String getNombre() {
 		return nombre;

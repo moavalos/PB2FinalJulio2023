@@ -44,4 +44,9 @@ public class Combo implements Venta {
 		return articulos;
 	}
 
+	@Override
+	public void setCantidad(Integer cantidad) {
+		
+	}
+
 }
